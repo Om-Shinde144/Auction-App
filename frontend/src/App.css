@@ -1,0 +1,183 @@
+.content
+{
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0E2635;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.app {
+  margin: 20px 20px auto;
+  padding: 2px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  font-family: ramraja, sans-serif;
+  background: linear-gradient(90deg, #0E2635 0%, #59A0B2 100%);
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+h2 {
+  font-family: Pacifico, cursive;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #3287A0;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.form-container {
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+textarea {
+  width: 45%;
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #6a11cb;
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  background: #59A0B2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+nav {
+  margin: 10px 0;
+  display: flex;
+  justify-content:right;
+}
+
+#logoName {     
+  margin: 10 15px;   
+  text-decoration: none;   
+  color: #ffffff;   
+  font-weight: bold;   
+  position: relative;   
+  left: -25%; 
+}
+
+.nav-link {
+  margin: 0 50px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  position: relative;
+  right: 5%;
+  top: 30px;
+}
+
+.nav-link:hover {
+  color: #B9DCE5;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #666;
+}
+
+button:hover {
+  background: #3287A0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+li:hover {
+  transform: translateY(-2px);
+}
+
+li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.message {
+  color: #d9534f; /* Bootstrap danger color */
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 1024px) { 
+  #logoName {
+      left: 0%; /* Reduce the offset */
+  }
+}
+
+@media (max-width: 600px) {
+  .app {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  header {
+    padding: 10px 0;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
