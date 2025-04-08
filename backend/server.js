@@ -182,6 +182,6 @@ app.post('/bid/:id', authenticate, async (req, res) => {
 });
 
 // Start the server
-app.listen(5001, () => {
+app.listen(5002, () => {
   console.log('Server is running on port 5001');
 });
